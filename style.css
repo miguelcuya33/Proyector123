@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0e17;
+    color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0f172a;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #3b82f6;
+    text-align: center;
+}
+
+/* Contenedor y Grid */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    align-items: start;
+}
+
+/* Columna de Imagen */
+.image-column {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 20px;
+}
+
+.image-wrapper {
+    position: relative;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ef4444;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Columna de Información */
+.info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brand-badge {
+    align-self: flex-start;
+    background-color: #1e293b;
+    color: #3b82f6;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #9ca3af;
+    margin: 0;
+    font-style: italic;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin: 0;
+}
+
+/* Secciones internas */
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3b82f6;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.spec-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spec-list li {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #d1d5db;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.section-box {
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.box-item {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+/* Botón de WhatsApp */
+.cta-button {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 14px 0 rgba(37, 211, 102, 0.4);
+    transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #20ba5a;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #1e293b;
+    background-color: #0f172a;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #6b7280;
+}
+.price-container {
+    border-top: 1px solid #1e293b;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size:30px
+}
